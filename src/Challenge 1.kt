@@ -6,7 +6,7 @@ fun main() {
     var freq = 0
     val lineList = File(inputFile).readLines()
 
-	lineList.forEach {
+    lineList.forEach {
         freq += it.toInt()
     }
 
