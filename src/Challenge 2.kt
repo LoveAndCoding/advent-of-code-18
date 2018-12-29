@@ -1,11 +1,9 @@
-import java.io.File
-
-val c2InputFile = "c1-input.txt"
+package com.imgineme.aoc18
 
 fun main() {
     var freq = 0
     val freqSet = mutableSetOf<Int>()
-    val lineList = File(c2InputFile).readLines()
+    val lineList = getChallengeInput(1)
     var line = 0
 
     do {
